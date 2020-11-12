@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quis HTML</title>
+</head>
+<body>
+<form action="simpan.php" method="POST"></form>
+	<table width="100%">
+	<tr>
+		<td rowspan="3"><img src="download.jpg"> 
+		<td align="right">RM.01
+	</tr>
+	<tr>
+		<td align="right"><b>FORMULIR PENDAFTARAN RAWAT INAP / ONE DAY CARE</b></td>
+	</tr>
+	<tr>
+		<td align="right"><i>semua bagian harus diisi</i></td>
+	</tr>
+		</table>
+	<fieldset style="align-self: 2%">
+		No. Register: <input type="text" name="No. Register">
+		<table align="right">
+			<tr>
+				<td colspan="3" align="center">No.Rekam Medis</td>
+			</tr>
+			<tr>
+				<td><textarea></textarea></td>
+				<td><textarea></textarea></td>
+				<td><textarea></textarea></td>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<br>
+		<font size="4"><b>A. IDENTITAS PASIEN (bagian ini harus lengkap dan mohon diisi pasien)</b></font>
+<pre>
+	Nama depan (sesuai KTP)		: <input size="100" type="text" name="Nama depan (sesuai KTP)"> Jenis-Kelamin : <input type="radio" name="Jenis-Kelamin"> Laki-Laki <input type="radio" name="Jenis-Kelamin"> Perempuan  <br>
+	Nama ibu kandung (sesuai KTP)	: <input size="160" type="text" name="Nama ibu kandung (sesuai KTP">
+	Tempat & tanggal lahir		: <input size="15" type="text" name="Tempat & tanggal lahir"> <input type="date" name="Tempat & tanggal lahir">	Agama	: <input size="25" type="text" name="Agama">
+	Alamat rumah (sesuai KTP)	: <input size="67" type="text" name="Alamat rumah (sesuai KTP"> No. <input type="text" name="No."> RT. <input type="text" name="RT."> RW. <input type="text" name="RW.">
+</pre>
+				<pre>
+					Kelurahan	: <input size="67" type="text" name="Kelurahan">		Kec.	: <input size="45" type="text" name="Kec.">
+					Kota/ Wilayah	: <input size="67" type="text" name="Kota/ Wilayah">		Telpon	: <input size="45" type="text" name="Telpon">
+					Email		: <input size="67" type="text" name=" Email">		HP	: <input size="45" type="text" name="HP">
+				</pre>
+<pre>
+	Pendidikan terakhir		: <input size="160" type="text" name="Pendidikan terakhir">
+	Pekerjaan/ bagian		: <input size="160" type="terakhir" name="Pekerjaan/ bagian">
+	Alamat kantor			: <input size="160" type="text" name="Alamat kantor">
+	Warga negara			: <input size="160" type="text" name="Warga negara"><br>
+	Pasien pernah dirawat di RS Royal Progress tanggal : <input type="text" name="tanggal"> bulan : <input type="text" name="bulan"> tahun : <input type="text" name="tahun">
+</pre>
+<font size="4"><b>B. IDENTITAS PENANGGUNG JAWAB (bagian ini mohon diisi penanggung jawab)</b></font>
+<pre>
+	Nama depan (sesuai KTP)		: <input size="160" type="text" name="Nama depan">
+	Nama ibu kandung (sesuai KTP)	: <input size="160" type="text" name="Nama ibu kandung (sesuai KTP">
+	Alamat rumah (sesuai KTP)	: <input size="160" type="text" name="Alamat rumah (sesuai KTP">
+</pre>
+				<pre>
+					Kelurahan	: <input size="67" type="text" name="Kelurahan">		Kec.	: <input size="45" type="text" name="Kec.">
+					Kota/ Wilayah	: <input size="67" type="text" name="Kota/ Wilayah">		Telpon	: <input size="45" type="text" name="Telpon">
+					Email		: <input size="67" type="text" name=" Email">		HP	: <input size="45" type="text" name="HP">
+				</pre>
+<pre>
+	Alamat kantor			: <input size="160" type="text" name="Alamat kantor">
+	Pekerjaan/ bagian		: <input size="160" type="text" name="Pekerjaan/ bagian">
+	Hubungan dengan pasian sebagai	: <input size="160" type="text" name="Hubungan dengan pasian sebagai">
+</pre>
+<font size="4"><b>C. KELAS PERAWATAN YANG DIMINTA (bagian ini diisi admission)</b></font>
+<pre>
+	Kelas perawatan 		: <input type="text" name="Kelas perawatan">		Kamar		: <input type="text" name="Kamar">		Lantai		: <input type="text" name="Lantai">
+	Tanggal masuk 			: <input type="text" name="Tanggal masuk">		Jam		: <input type="text" name="Jam">		Dokter pengirim	: <input type="text" name="Dokter pengirim"><br>		
+	DPJP				: <input size="160" type="text" name="DPJP">
+	Asal pasien (pilih satu)
+	<input type="checkbox" name="IGD">IGD		<input type="checkbox" name="IRJ">IRJ	Jaminan kesehatan	:					Rujukan		:
+				<input type="checkbox" name="GAKIN/SKTM"> GAKIN/SKTM							<input type="checkbox" name="Dr.Royal Progress"> Dr.Royal Progress		: <input type="text" name="Dr.Royal Progress">
+				<input type="checkbox" name="ASKES"> ASKES							<input type="checkbox" name="Dr.Kerjasama/Rujukan"> Dr.Kerjasama/Rujukan	: <input type="text" name="Dr.Kerjasama/Rujukan">
+				<input type="checkbox" name="JAMSOSTEK"> JAMSOSTEK							<input type="checkbox" name="Rumah Sakit"> Rumahh Sakit		: <input type="text" name="Rumahh Sakit">
+				<input type="checkbox" name="Lainnya"> Lainnya							<input type="checkbox" name="Bidan"> Bidan			: <input type="text" name="Bidan">
+												<input type="checkbox" name="Peruahaan rekaman" style="size: 50%"> Perusahaan rekaman		: <input type="text" name="Perusahaan rekaman">
+												<input type="checkbox" name="Yayasan"> Yayasan			: <input type="text" name="Yayasan">
+												<input type="checkbox" name="Progress Group"> Progress Group		: <input type="text" name="Progress Group"><br>
+	Cara pembayaran			: <input type="checkbox" name="Pribadi"> Pribadi	<input type="checkbox" name="Jaminan"> Jaminan	: <input size="100" type="text" name="Jaminan">
+	Kode perusahaan/ asuransi	: 
+	Surat jaminan 				: <input type="checkbox" name="Ya"> Ya 	<input type="checkbox" name="Tidal"> Tidak
+	Surat rujukan 				: <input type="checkbox" name="Ya"> Ya 	<input type="checkbox" name="Tidak"> Tidak 	
+</pre>
+<font size="4"><b>D. SURAT PERNYATAAN PERSETUJUAN PERATURAN RUMAH SAKIT DAN HAK PASIEN</b></font> <br>
+ 	Harus ACC No. 1 & 2 
+	acc Saya sudah membaca, mengerti dan <br>
+	<input type="checkbox" name="">meyetujui "Peraturan Rawat Inap/ One Day 
+	   Care" <br>
+	acc Saya sudah membaca, mengerti dan <br>
+	<input type="checkbox" name="">meyetujui "Hal dan Kewajiban Pasien Rawat 
+	   Inap/ One Day"<br>
+	   <br>
+	   <table>
+			<tr>
+				<td>Distribusi :</td>
+				<td>Putih</td>
+				<td>-</td>
+				<td>Rekam Medis</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>Merah</td>
+				<td>-</td>
+				<td>Kasir</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>Biru</td>
+				<td>-</td>
+				<td>Admission</td>
+			</tr>
+		</table>
+	   <footer style="text-align: right;"><b>Jakarta</b>, ___________________________</footer>
+		<footer style="text-align: right;">Tanda tangan Penanggung jawab pasien / Pasien</footer><br>
+		<br>
+		<br>
+		<footer style="text-align: right;">(.............................................)</footer>
+		<footer style="text-align: right;">Nama Lengkap                                   </footer>
+		<br>
+		<footer style="text-align: right;"><b>Tanda tangan Petugas Admission</b>	</footer><br>
+		<br>
+		<br>
+		<footer style="text-align: right;">(.............................................)</footer>
+		<footer style="text-align: right;">Nama Lengkap                                   </footer>
+		<br>
+	</fieldset>
+</form>	
+</body>
+</html>
